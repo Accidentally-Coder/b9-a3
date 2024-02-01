@@ -529,6 +529,9 @@
                     your inquiries, feedback, or collaboration opportunities.</p>
             </div>
             <!-- info section -->
+            <div class="border-4 border-red-700 flex flex-col lg:flex-row">
+                <!-- here i will do the get in touch section responsive -->
+            </div>
             <div class="flex mt-12 gap-10">
                 <div class="border-2 border-gray-100 rounded-2xl w-[474px] h-[764px] flex flex-col center p-12 gap-6">
                     <div class="bg-green-50 p-8 w-[374px] h-[216px] rounded-2xl">
@@ -555,7 +558,7 @@
                 </div>
                 <!-- form -->
                 <div>
-                    <div class="grid grid-cols-2 gap-6">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div>
                             <label for="name" class="font-bold text-xl">Your Name</label>
                             <input type="text" placeholder="Enter your full name"
@@ -595,7 +598,7 @@
         </section>
     </main>
     <!-- <footer> -->
-    <footer class="footer px-36 py-24 bg-black text-white h-[454px]">
+    <footer class="footer px-5 lg:px-36 py-10 lg:py-24 bg-black text-white h-full lg:h-[454px]">
         <aside class="w-[346px] flex flex-col gap-6">
             <h4 class="text-3xl font-extrabold">
                 Get In Touch
@@ -612,21 +615,23 @@
                 (+62) 123-321-543
             </p>
         </aside>
-        <nav>
-            <h6 class="text-lg font-bold text-white">Company</h6>
-            <a class="link link-hover text-base text-gray-400 font-medium">About us</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">Leadership</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">Careers</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">News & Article</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">Legal Notice</a>
-        </nav>
-        <nav>
-            <h6 class="text-lg font-bold text-white">Support</h6>
-            <a class="link link-hover text-base text-gray-400 font-medium">Help Center</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">FAQ</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">Ticket Support</a>
-            <a class="link link-hover text-base text-gray-400 font-medium">Contact Us</a>
-        </nav>
+        <div class="flex flex-row gap-5 lg:gap-36">
+            <nav class="flex flex-col">
+                <h6 class="text-lg font-bold text-white">Company</h6>
+                <a class="link link-hover text-base text-gray-400 font-medium">About us</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">Leadership</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">Careers</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">News & Article</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">Legal Notice</a>
+            </nav>
+            <nav class="flex flex-col">
+                <h6 class="text-lg font-bold text-white">Support</h6>
+                <a class="link link-hover text-base text-gray-400 font-medium">Help Center</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">FAQ</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">Ticket Support</a>
+                <a class="link link-hover text-base text-gray-400 font-medium">Contact Us</a>
+            </nav>
+        </div>
         <nav>
             <h6 class="text-lg font-bold text-white">Services</h6>
             <a class="link link-hover text-base text-gray-400 font-medium">Academy</a>
